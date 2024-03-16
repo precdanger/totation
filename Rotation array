@@ -1,0 +1,38 @@
+RotateArray(arr, n)
+{
+    arr = arr.rotate(n)
+return arr
+}
+
+arr = [1,2,3,4]
+n = 2
+rotateArray(arr, n)
+console.log(arr)
+
+
+RotateArray(arr, n);
+{
+  arr = arr.rotate(n);
+  return arr;
+}
+
+arr = [1, 2, 3, 4];
+n = 6
+rotateArray(arr, n);
+console.log(arr);
+
+
+
+
+
+
+RotateArray(arr, n);
+{
+  arr = arr.rotate(n);
+  return arr;
+}
+
+arr = [1, 2, 3, 4];
+n = -2;
+rotateArray(arr, n);
+console.log(arr);
